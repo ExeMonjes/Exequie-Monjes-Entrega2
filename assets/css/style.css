@@ -73,7 +73,7 @@
         list-style-type: none;
         display: flex;
         justify-content: left;
-        gap: 25px;
+        gap: 20px;
         padding: 10px;
     }
     .menu li {
