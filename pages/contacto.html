@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="e">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../assets/img/logonav.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h2>Contacto</h2>
+        <a href="../index.html">Volver al inicio</a>
+    </header>
+    <main>
+        <h2>Preguntanos lo que quieras 😊</h2>
+        <div>
+        <p class="presentacion">En callejeros buscamos que puedas elevar tu estilo, con nuestra colección de ropa callejera, diseños únicos, actitud y autenticidad en cada prenda. Viste con personalidad, destaca en cada paso. ¡Explora ahora y haz que tu outfit hable por ti!🚀🔥</p>
+        </div>
+        <form class="formulario" action="enviar.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <div>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            
+            <button class="botenviar" type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <div>
+        <p>Ser mayorista</p>
+        <p> &copy; Derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
